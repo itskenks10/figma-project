@@ -1,0 +1,145 @@
+body{
+    font-family: 'lato',sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+header{
+    /* position: fixed; */
+    width: 100vw;
+    /* z-index: 1; */
+    /* margin-bottom: 3em; */
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 10em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10em;
+    /* grid-template-columns: 5fr 5fr; */
+}
+.sub-container{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4em;
+    /* font-size: 2.5em; */
+}
+.sub-container>p{
+    font-size: 2.5em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1em;
+    z-index: 1;
+    gap: 1em;
+    /* position: fixed; */
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ .info-box{
+    max-width: 50%; 
+}
+.gray-box{
+    /* max-width: 50%; */
+    background-color: #C4C4C4;
+    box-shadow: 2px 2px 15px 1px black;
+    width: 30em;
+    border-radius:0.5em;
+    height: 25em;
+    /* margin-bottom: 10em; */
+}
+.sc1>p{
+    font-size: 3em;
+    /* opacity: 0.5; */
+}
+strong{
+    opacity: unset;
+}
+.blue-bg{
+    background-color:#35358C;
+    color: white;
+}
+.blue-bg-p{
+    font-size: 1.5em;
+    color: inherit;
+}
+
+.blue-bg>.gray-box{
+margin-top: 5em;
+margin-bottom: 5em;
+}
+.blue-header{
+font-size: 3.5em;
+color: #3151FB;
+
+}
+.blue-bg-btn{
+padding: 1em 3em;
+background-color:#3151FB;
+color: inherit;
+transition: background-color 1s ease-in;
+border-width: 0em;
+/* font-size: 1.5em; */
+/* border-radius: 0.5em; */
+}
+.blue-bg-btn:hover{
+    background-color: white;
+    color: #35358C;
+}
+.contact-btn{
+background-color: #3151FB;
+padding: 1em 2em;
+border-width: 0em;
+color: white;
+transition: background-color 1s ease-in;
+border-radius: 0.5em;
+}
+.listings{
+    transition: border-bottom 1s;
+    }
+.listings:hover{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom-width: 10px;
+    border-bottom-color: #3151FB;
+}
+.contact-btn:hover{
+    /* border: 1px #3151FB; */
+    /* border-width:2px; */
+    border-color: #3151FB;
+    outline-color: invert;
+    background-color: white;
+    color: #3151FB;
+}
+.white-bg{
+background-color: inherit;
+color: #3151FB;
+padding: 1em 2em;
+transition: background-color 1s ease-in-out;
+border-color: #3151FB;
+border-width: 0.2em;
+}
+.white-bg:hover{
+    background-color: #3151FB;
+    color: white;
+    border-width: 0px;
+}
+button{
+border-radius: 0.5em;
+}
+h3{
+font-size: 3em;
+}
+.info-p{
+font-size: 1.5em;
+}
